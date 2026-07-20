@@ -218,7 +218,7 @@ npm install
 
 ## Install Backend Dependencies
 
-Open another terminal OR go back and run:
+Open another terminal:
 
 ```bash
 cd ../backend
@@ -227,7 +227,15 @@ npm install
 
 ---
 
-# Run Project
+# Run Project with Docker (Recommended)
+
+```bash
+docker-compose up -d
+```
+
+---
+
+# Run Project Locally (Without Docker)
 
 ## Start Backend Server
 
@@ -255,7 +263,7 @@ npm run dev
 Frontend:
 
 ```txt
-http://localhost:5173
+http://localhost:5175 (Docker) or http://localhost:5173 (Local)
 ```
 
 Backend:
